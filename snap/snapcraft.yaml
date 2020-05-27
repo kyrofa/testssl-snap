@@ -1,5 +1,5 @@
 name: testssl
-version: '3.0snap2'
+version: '3.0.2snap1'
 summary: Testing TLS/SSL encryption anywhere on any port
 description: |
   testssl.sh is a free command line tool which checks a server's service on
@@ -32,7 +32,7 @@ apps:
 parts:
   testssl:
     plugin: dump
-    source: https://github.com/drwetter/testssl.sh/archive/3.0.tar.gz
+    source: https://github.com/drwetter/testssl.sh/archive/3.0.2.tar.gz
     stage-packages:
       - dnsutils
       - bsdmainutils
